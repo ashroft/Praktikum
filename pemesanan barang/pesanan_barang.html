@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Form Pesanan Barang </title>
+    
+</head>
+<body bgcolor="	#808080" style="margin: 0; padding: 0;"><font face="Calibri">
+    <header>
+        <nav style="display: flex; align-items: center; justify-content:space-between; padding: 20px 50px 20px 50px; background-color: rgb(207, 207, 207); border-bottom: 3px solid #303030;">
+            <table>
+                <tr>
+                <th colspan="9"> <b> <span style="font-size: smaller; "> Online Shop </span> </b> </th>
+                </tr>
+
+                <tr>
+                    <td> <a href="#"> <img src="assets/kiri.png" width="20" height="20"> </a> </td>
+                    <td> <a href="#"> <img src="assets/kanan.png" width="20" height="20"> </a> </td>
+                    <td> <a href="#"> <img src="assets/x.png" width="20" height="20"> </a> </td>
+                    <td> <a href="#"> <img src="assets/rumah.png" width="20" height="20"> </a> </td>
+                    <td> <input type="text" size="160" placeholder="http://"> </td>
+                    <td> <a href="#"> <img src="assets/search.png" width="20" height="20"> </a> </td>
+                </tr>
+            </table>        
+        </nav>
+    </header>
+<div style="display: flex; padding: 10px;">
+    <table style="display: flex; border-style: outset;">
+        <tr>
+            <th colspan="5">  </th>
+        </tr>
+        <tr>
+            <td> <a href="#"> Home </a> | </td>
+            <td> <a href="#"> Generate Link </a> | </td>
+            <td> <a href="#"> Transaction History </a> | </td>
+            <td> <a href="#"> Policy </a> | </td>
+            <td> <a href="#"> Logout </a> </td>
+        </tr>
+    </table>
+    </div>
+
+    <div style="display: flex; padding: 30px;">
+    <table>
+        <tr>
+            <th colspan="2"> </th>
+        </tr>
+
+        <tr align="left">
+            <td><img src="pp.png" alt="" weidht=150px height=250px> <br> 
+            <input type="file" name="photo" value="upload photo"> </td> </tr>
+    </table>
+
+    <table width="53%" align="left" style="background-color: a9a9a9; margin-left: 20px; padding: 0 50px 50px; ">
+        <tr>
+            <td> Title Here : </td>
+            <td> <input type="text" size="50"> </td>
+        </tr>
+        <tr>
+            <td> Description : </td>
+            <td> <textarea id="Description" size="50" cols="37" rows="5" maxlength="400"></textarea> </td> 
+        </tr>
+        <tr>
+            <td> Account Number : </td>
+            <td> <input type="text" size="50"> </td> 
+        </tr>
+        <tr>
+            <td> Bank : </td>
+            <td> <select name="Bank"> <option aria-setsize="25">HSBC</option>
+                <option aria-setsize="25">BRI</option>
+                <option aria-setsize="25">MANDIRI</option>
+                <option aria-setsize="25">BCA</option>
+                <option aria-setsize="25">BNI</option></select> </td>
+        </tr>
+        <tr>
+            <td> Account Holder : </td>
+            <td> <input type="text"> </td> 
+        </tr>
+        <tr>
+            <td> Transaction : </td> 
+            <td> <input type="number" step="1" min="1" max="3" name="Transaction" value="1" title="tsc" class="input-text tsc text" size="2" pattern="" inputmode=""></td>
+        </tr>
+        <tr>
+            <td> <input type="checkbox" name="Send" value="Send1"> Send to Mobile Phone <br>
+                 <input type="checkbox" name="Send" value="Send2"> Send to Email </td>
+        </tr>
+        <tr>
+            <td> Send to Mobile Phone : </td>
+            <td> <input type="text"> </td> 
+        </tr>
+        <tr>
+            <td> Send to Email : </td>
+            <td> <input type="text"> </td>
+        </tr>
+        <tr width=50%>
+            <td colspan="2"><input type="submit" style="color: #fff; background-color: #228B22; border: 3px solid #303030; width: 48%; height: 45px; font-weight: bold;" value="Generate Nabr Link"> </td>
+        </tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>
